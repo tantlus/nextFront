@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* - ver2.0 (2017.02) 
+ 	- 배포 시작 : 2017년 3월
+ 	- 공통 클래스 및 디자인 구현   	
+ */
+ 
+@import url('base.css');
+
+/* form */
+.input-text, select, .select, .textarea  {margin:0 4px 0 0; border-top:1px solid #aaa; border-left:1px solid #aaa; border-bottom:1px solid #c3c3c3; border-right:1px solid #c3c3c3; font-size:12px; font-family:'Malgun Gothic', '맑은 고딕'; color:#444; line-height:17px;}
+/* form for ie6-10 */
+.input-text, select, .select, .textarea  {margin:0 4px 0 0\9;}
+input.input-text {height:17px;padding:1px 6px 2px;  background-color:#fff;}
+
+/* login */
+.ub-layout.login {min-height:100%; background:url('../images/common/bg_login.gif') repeat 0 0;}
+.ub-layout.login .login-content {width:590px; position:absolute; margin-top:-124px; margin-left:-295px; top:50%; left:50%;}
+.ub-layout.login .login-content .logo-area {height:42px; background:url('../images/common/bg_login_header.png') no-repeat 0 0;}
+.ub-layout.login .login-content .logo-area h1 {padding:11px 0 0 18px;}
+.ub-layout.login .login-content .logo-area h1 img {vertical-align:top; font-size:0; line-height:0;}
+.ub-layout.login .login-content .login-form {min-height:175px; border:1px solid #b5b5b5; border-top:0; box-shadow:0px 5px 10px 0px lightgrey; background:#fff;}
+.ub-layout.login .login-content fieldset {position:relative;padding:45px 0 25px 192px; width:342px; background:url('../images/common/bg_login_content.png') no-repeat 54px 30px;}
+.ub-layout.login .login-content fieldset legend {display:none;}
+.ub-layout.login .login-content .login-form label {padding-left:7px; width:60px; display:inline-block; vertical-align:middle; font-size:13px; font-weight:bold; color:#666; background:url('../images/common/ico_login.gif') no-repeat 0 7px;}
+.ub-layout.login .login-content .login-form .login-inputtext {display:inline-block;}
+.ub-layout.login .login-content .login-form .login-inputtext input {margin:0 0 0 7px; height:25px; line-height:22px; color:#787878; font-weight:bold;}
+.ub-layout.login .login-content .pw-insert {margin-top:10px;}
+.ub-layout.login .login-content .id-insert label,
+.ub-layout.login .login-content .pw-insert label {display:none;}
+.ub-layout.login .login-content .login-idcheck {margin-top:5px; padding-left:11px; color:#7f7e7e; text-align:right;}
+.ub-layout.login .login-content .login-idcheck * {vertical-align:middle;line-height:20px;}
+.ub-layout.login .login-content .login-idcheck input {margin-top:-3px;border-color:#8e8f8f;}
+.ub-layout.login .login-content .login-idcheck .checkbox {margin-top:0; background:none;}
+.ub-layout.login .login-content .login-form .save {width:auto; font-size:12px; background:none;}
+.ub-layout.login .login-content .login-btn {position:absolute; top:45px; left:465px;}
+.ub-layout.login .login-content .login-foot {margin-top:15px; text-align:center; font-size:11px; color:#8f8e8e;}
+.ub-layout.login .login-content .login-form .login-inputtext input {width:240px;}
+.ub-layout.login .login-content .login-form .login-inputtext input:focus {border:1px solid #77aed2; background:#e4f2fa;}

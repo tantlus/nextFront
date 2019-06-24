@@ -473,6 +473,7 @@ a.imgBtn.img-board-search {width:68px;height:21px;background:url('../images/comm
 .ub-layout.login .login-content .login-form .save {width:auto; font-size:12px; background:none;}
 .ub-layout.login .login-content .login-btn {position:absolute; top:45px; left:465px;}
 .ub-layout.login .login-content .login-foot {margin-top:15px; text-align:center; font-size:11px; color:#8f8e8e;}
+.ub-layout.login .login-content .login-form .login-inputtext input {width:240px;}
 .ub-layout.login .login-content .login-form .login-inputtext input:focus {border:1px solid #77aed2; background:#e4f2fa;}
 
 /* Meta Imsi View */

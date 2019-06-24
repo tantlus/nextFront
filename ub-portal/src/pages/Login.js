@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'resource/css/style.css';
 
 const Login = () => {
@@ -25,7 +26,8 @@ const Login = () => {
 						</span>
 					</div>
 					<div className="login-idcheck"><input type="checkbox" id="login-idSave" className="ub-control checkbox" /> <label htmlFor="login-idSave" className="save">아이디저장</label></div>
-					<div className="login-btn" id="login" name="login"><span><a href="none;"><img src={require('resource/images/common/btn_login.png')} alt="로그인" /></a></span></div>
+					<div className="login-btn" id="login" name="login">
+						<span><Link to="/Main"><img src={require('resource/images/common/btn_login.png')} alt="로그인" /></Link></span></div>
 				</fieldset>						
 			</form>
 		</div>		
