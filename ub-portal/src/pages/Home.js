@@ -1,11 +1,10 @@
 import React from 'react';
+import SassComponent from "../SassComponent";
 
 const Home = () => {
     return (
         <div>
-            <h2>
-                홈
-            </h2>
+            <SassComponent />
         </div>
     );
 };
