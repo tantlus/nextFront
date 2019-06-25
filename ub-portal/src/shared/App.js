@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Home, Login , Main} from 'pages';
 
+import  Home  from 'pages/Home';
+import Samples from 'pages/samples/Samples';
+
+import Header from 'components/Header';
 
 class App extends Component {
     render() {
         return (
-            <div className="wrapper">
+            <div>
+                <Header/>
                 <Route exact path="/" component={Home}/>
-                <Route path="/Login" component={Login}/>
-                <Route path="/Main" component={Main}/>
+                <Route path="/Sample" component={Samples}/>
             </div>
         );
     }

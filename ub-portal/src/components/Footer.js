@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const Footer = () => {
     return (
         <div>
-            <h1>Home 입니다.</h1>
+            풋터
         </div>
     );
 };
 
-export default Home;
+export default Footer;

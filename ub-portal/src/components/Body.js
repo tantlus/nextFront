@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const Body = () => {
     return (
         <div>
-            <h1>Home 입니다.</h1>
+            바디
         </div>
     );
 };
 
-export default Home;
+export default Body;
